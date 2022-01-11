@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | 3-column preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.google.com/specimen/Lexend+Deca');
+    @import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Yantramanav:wght@300;400&display=swap');
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+    h1{
+      font-family: 'arimo' sans-serif;
+      font-weight: 100;
+    }
+    
+    p,a{font-family: 'Yantramanav', sans-serif;}
+  </style>
+</head>
+<body class="bg-gray-300">
+  
+  <div class="wrap_all my-[10vh] flex flex-wrap justify-center items-center rounded overflow-hidden">
+    <div class="m-1 justify-center card p-10 bg-[#E28525] flex flex-col w-[375px] h-[600px] rounded-xl">
+      <img src="images/icon-sedans.svg" alt="" width="100px" class="mt-10">
+      <h1 class="text-4xl text-white my-8 font-semibold">SEDAN</h1>
+      <p class="mb-28 text-[#fff8] text-xl">
+        Choose a sedan for its <br>
+        affordability and excellent <br>
+        fuel economy. Ideal for <br>
+        cruising in the city or on <br>
+        your next road trip.
+      </p>
+      <a href="#" class="bg-white text-[#E28525] font-bold w-[160px] mb-10 py-4 m-0 rounded-full text-center">Learn More</a>
+    </div>
+    
+    <div class="m-1 justify-center card p-10 bg-[#0D6A70] flex flex-col w-[375px] h-[600px] rounded-2xl">
+      <img src="images/icon-SUVS.svg" alt="" width="100px" class="mt-10">
+      <h1 class="text-4xl text-white my-8 font-semibold">SUVs</h1>
+      <p class="mb-28 text-[#fff8] text-xl">
+        Choose a sedan for its <br>
+        affordability and excellent <br>
+        fuel economy. Ideal for <br>
+        cruising in the city or on <br>
+        your next road trip.
+      </p>
+      <a href="#" class="bg-white text-[#0D6A70] font-bold w-[160px] mb-10 py-4 m-0 rounded-full text-center">Learn More</a>
+    </div>
+
+    <div class=" m-1 justify-center card p-10 bg-[#01403F] flex flex-col w-[375px] h-[600px] rounded-2xl">
+      <img src="images/icon-luxury.svg" alt="" width="100px" class="mt-10">
+      <h1 class="text-4xl text-white my-8 font-semibold">LUXURY</h1>
+      <p class="mb-28 text-[#fff8] text-xl">
+        Choose a sedan for its <br>
+        affordability and excellent <br>
+        fuel economy. Ideal for <br>
+        cruising in the city or on <br>
+        your next road trip.
+      </p>
+      <a href="#" class="bg-white text-[#01403F] font-bold w-[160px] mb-10 py-4 m-0 rounded-full text-center">Learn More</a>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Gustavo Park</a>.
+  </div>
+</body>
+</html>
